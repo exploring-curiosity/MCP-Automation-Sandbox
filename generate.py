@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""MYME — Fully automated MCP server generator with Blaxel deployment.
+"""Test Pilot — Fully automated MCP server generator with Blaxel deployment.
 
 Usage (run from inside the blaxel/ directory):
     python generate.py ../examples/petstore.yaml
@@ -124,7 +124,7 @@ def run(
     logger = get_logger()
 
     logger.info("=" * 60)
-    logger.info("MYME — Automated MCP Generator (Blaxel)")
+    logger.info("Test Pilot — Automated MCP Generator (Blaxel)")
     logger.info("=" * 60)
     logger.info("Source: %s", source)
 
@@ -202,7 +202,7 @@ def run(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="MYME — Fully automated MCP server generator with Blaxel deployment",
+        description="Test Pilot — Fully automated MCP server generator with Blaxel deployment",
         epilog="Example: python generate.py ../examples/petstore.yaml",
     )
     parser.add_argument(

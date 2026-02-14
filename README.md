@@ -1,4 +1,4 @@
-# MYME — Automated MCP Generator + Blaxel Deploy
+# Test Pilot — Automated MCP Generator + Blaxel Deploy
 
 Fully automated pipeline: give it a spec file or URL, get a complete MCP server deployed to Blaxel. No user interaction required.
 
